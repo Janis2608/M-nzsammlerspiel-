@@ -32,3 +32,6 @@ Bitte stelle sicher, dass Folgendes installiert ist:
 
 ```powershell
 cd "C:\Schule\Software Entwicklung\coin_collector"
+
+## Starten des Spiels
+uv run -m coin_collector --level coin_collector/levels/level_example.json --fps 60 --debug
